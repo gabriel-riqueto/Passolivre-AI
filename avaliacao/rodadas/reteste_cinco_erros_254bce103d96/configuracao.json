@@ -1,0 +1,8 @@
+{
+  "rodada": "reteste_cinco_erros",
+  "fingerprint": "254bce103d96",
+  "modelo": "qwen2.5:3b-instruct-q4_K_M",
+  "quantidade_perguntas": 5,
+  "core_sha256": "fe02d0ef12e4649a011f88eb5b7de07ddd88f37fed6a19b057113ba108610a6f",
+  "base_sha256": "77dcb499c09047b1bed06c4ce8e65c618e9c6a3ece3fb94ad531dd8c9d730c30"
+}

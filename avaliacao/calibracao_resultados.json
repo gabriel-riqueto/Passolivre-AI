@@ -1,0 +1,76 @@
+{
+  "nota": "Calibração exploratória de 10 consultas; não é teste de generalização.",
+  "candidatos": [
+    {
+      "pergunta": "Existe um buraco registrado na Rua Exemplo?",
+      "tem_fonte": true,
+      "id_esperado": "S001",
+      "top1_score": 0.37875,
+      "top1_id": "S001"
+    },
+    {
+      "pergunta": "Quem validou o poste na Avenida Modelo?",
+      "tem_fonte": true,
+      "id_esperado": "S002",
+      "top1_score": 0.3517,
+      "top1_id": "S002"
+    },
+    {
+      "pergunta": "Largura mínima para passeio em São Paulo?",
+      "tem_fonte": true,
+      "id_esperado": "G004",
+      "top1_score": 0.35057,
+      "top1_id": "G004"
+    },
+    {
+      "pergunta": "Quando pode ter 80 centímetros em calçada estreita?",
+      "tem_fonte": true,
+      "id_esperado": "G006",
+      "top1_score": 0.16649,
+      "top1_id": "G006"
+    },
+    {
+      "pergunta": "Quem ganhou a Copa do Mundo 2002?",
+      "tem_fonte": false,
+      "id_esperado": null,
+      "top1_score": 0.09039,
+      "top1_id": "G003"
+    },
+    {
+      "pergunta": "Qual é a temperatura em Marte?",
+      "tem_fonte": false,
+      "id_esperado": null,
+      "top1_score": 0.09172,
+      "top1_id": "G006"
+    },
+    {
+      "pergunta": "Como preparar um risoto de cogumelos?",
+      "tem_fonte": false,
+      "id_esperado": null,
+      "top1_score": 0.12783,
+      "top1_id": "G003"
+    },
+    {
+      "pergunta": "Qual é a capital do Peru?",
+      "tem_fonte": false,
+      "id_esperado": null,
+      "top1_score": 0.09142,
+      "top1_id": "S005"
+    },
+    {
+      "pergunta": "Meu WhatsApp está funcionando?",
+      "tem_fonte": false,
+      "id_esperado": null,
+      "top1_score": 0.14355,
+      "top1_id": "S008"
+    },
+    {
+      "pergunta": "Quanto custa trocar o filtro do carro?",
+      "tem_fonte": false,
+      "id_esperado": null,
+      "top1_score": 0.08219,
+      "top1_id": "S009"
+    }
+  ],
+  "limiar_selecionado": 0.15
+}

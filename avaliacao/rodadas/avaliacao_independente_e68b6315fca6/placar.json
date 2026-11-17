@@ -1,0 +1,38 @@
+{
+  "metodologia": "Acurácia e alucinação exigem revisão humana completa. Recusa conforme gabarito não equivale a acurácia.",
+  "modos": {
+    "puro": {
+      "total_questoes": 16,
+      "fracao_chamadas_llm": 1.0,
+      "json_valido_nas_geracoes": 1.0,
+      "citacoes_ids_validos_nas_geracoes": null,
+      "recusas_conforme_gabarito": 0.6875,
+      "respostas_fundamentadas_estruturalmente": 0.0,
+      "revisadas": "16/16",
+      "acuracia_humana": 0.1875,
+      "taxa_alucinacao_humana": 0.25
+    },
+    "rag": {
+      "total_questoes": 16,
+      "fracao_chamadas_llm": 1.0,
+      "json_valido_nas_geracoes": 1.0,
+      "citacoes_ids_validos_nas_geracoes": 1.0,
+      "recusas_conforme_gabarito": 0.75,
+      "respostas_fundamentadas_estruturalmente": 0.8125,
+      "revisadas": "16/16",
+      "acuracia_humana": 0.6875,
+      "taxa_alucinacao_humana": 0.0625
+    },
+    "agente": {
+      "total_questoes": 16,
+      "fracao_chamadas_llm": 1.0,
+      "json_valido_nas_geracoes": 1.0,
+      "citacoes_ids_validos_nas_geracoes": 1.0,
+      "recusas_conforme_gabarito": 0.9375,
+      "respostas_fundamentadas_estruturalmente": 0.8125,
+      "revisadas": "16/16",
+      "acuracia_humana": 0.75,
+      "taxa_alucinacao_humana": 0.125
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "metrica": "media da fração de fontes relevantes recuperadas por questão",
+  "limitacao": "busca TF-IDF + n-gramas; não é busca semântica",
+  "recall_at_1": 0.9,
+  "recall_at_3": 0.9
+}

@@ -1,0 +1,30 @@
+{
+  "aviso": "Métricas estruturais. Não representam acurácia factual nem taxa de alucinação.",
+  "recall": {
+    "recall_at_1": 0.75,
+    "recall_at_3": 0.8333
+  },
+  "modos": {
+    "puro": {
+      "total_perguntas": 16,
+      "chamadas_llm": 16,
+      "recusa_conforme_gabarito_pct": 68.75,
+      "json_valido_nas_chamadas_pct": 100.0,
+      "fundamentacao_estrutural_pct": 0.0
+    },
+    "rag": {
+      "total_perguntas": 16,
+      "chamadas_llm": 16,
+      "recusa_conforme_gabarito_pct": 75.0,
+      "json_valido_nas_chamadas_pct": 100.0,
+      "fundamentacao_estrutural_pct": 81.25
+    },
+    "agente": {
+      "total_perguntas": 16,
+      "chamadas_llm": 16,
+      "recusa_conforme_gabarito_pct": 93.75,
+      "json_valido_nas_chamadas_pct": 100.0,
+      "fundamentacao_estrutural_pct": 81.25
+    }
+  }
+}

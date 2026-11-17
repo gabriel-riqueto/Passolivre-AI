@@ -1,0 +1,111 @@
+[
+  {
+    "id": "S001", "titulo": "Registro simulado OC001 — buraco na calçada", "tipo": "simulado",
+    "texto": "Na Rua Exemplo, número 150, foi relatado um buraco na calçada. Identificador OC001. Situação: pendente de validação humana. A foto e o relato ainda não confirmam o problema.",
+    "ocorrencias": ["OC001"], "referencia": "PassoLivre, cadastro de demonstração OC001",
+    "url": "", "licenca": "Dado fictício produzido para o projeto"
+  },
+  {
+    "id": "S002", "titulo": "Registro simulado OC002 — poste obstruindo passagem", "tipo": "simulado",
+    "texto": "Na Avenida Modelo, número 80, existe relato de poste na faixa de passagem. Identificador OC002. Registro validado por responsável, mas a resolução está em andamento; não foi concluída.",
+    "ocorrencias": ["OC002"], "referencia": "PassoLivre, cadastro de demonstração OC002",
+    "url": "", "licenca": "Dado fictício produzido para o projeto"
+  },
+  {
+    "id": "S003", "titulo": "Registro simulado OC003 — desnível rejeitado", "tipo": "simulado",
+    "texto": "Na Praça Protótipo, acesso principal, um usuário relatou desnível. Identificador OC003. A verificação rejeitou o relato porque a foto era insuficiente. Não há ocorrência confirmada.",
+    "ocorrencias": ["OC003"], "referencia": "PassoLivre, cadastro de demonstração OC003",
+    "url": "", "licenca": "Dado fictício produzido para o projeto"
+  },
+  {
+    "id": "S004", "titulo": "Política do PassoLivre — validação dos relatos", "tipo": "politica_simulada",
+    "texto": "Um relato enviado por usuário não equivale a uma vistoria validada. A interface diferencia os estados pendente, validado e rejeitado. Revisão humana é necessária para confirmar uma barreira.",
+    "ocorrencias": [], "referencia": "PassoLivre, política acadêmica interna (simulada)",
+    "url": "", "licenca": "Texto autoral, política acadêmica simulada"
+  },
+  {
+    "id": "S005", "titulo": "Política do PassoLivre — limites de segurança", "tipo": "politica_simulada",
+    "texto": "A ausência de registro de barreira não comprova que a calçada é segura. O PassoLivre não garante segurança total de percurso e não certifica rotas, mesmo sem ocorrências conhecidas.",
+    "ocorrencias": [], "referencia": "PassoLivre, política acadêmica interna (simulada)",
+    "url": "", "licenca": "Texto autoral, política acadêmica simulada"
+  },
+  {
+    "id": "S006", "titulo": "Política do PassoLivre — encerramento de ocorrência", "tipo": "politica_simulada",
+    "texto": "Uma ocorrência só deve ser marcada como resolvida após existir evidência de encerramento registrada pelo responsável. Se a correção estiver sendo executada, o status permanece em andamento.",
+    "ocorrencias": [], "referencia": "PassoLivre, política acadêmica interna (simulada)",
+    "url": "", "licenca": "Texto autoral, política acadêmica simulada"
+  },
+  {
+    "id": "S007", "titulo": "Política do PassoLivre — privacidade de imagens", "tipo": "politica_simulada",
+    "texto": "Fotos de acessibilidade podem conter rostos, placas de veículos, coordenadas e outros dados pessoais. No protótipo, não são armazenadas fotografias ou localizações reais; devem ser evitados dados identificáveis.",
+    "ocorrencias": [], "referencia": "PassoLivre, política acadêmica interna (simulada)",
+    "url": "", "licenca": "Texto autoral, política acadêmica simulada"
+  },
+  {
+    "id": "S008", "titulo": "Política do PassoLivre — visão computacional", "tipo": "politica_simulada",
+    "texto": "Uma análise de imagem por visão computacional poderia sugerir buracos ou obstáculos, mas o resultado automático é apenas uma hipótese e necessita revisão humana. A funcionalidade de visão computacional ainda não está implementada no protótipo.",
+    "ocorrencias": [], "referencia": "PassoLivre, política acadêmica interna (simulada)",
+    "url": "", "licenca": "Texto autoral, política acadêmica simulada"
+  },
+  {
+    "id": "S009", "titulo": "Registro simulado OC004 — entrada com degrau", "tipo": "simulado",
+    "texto": "Na Travessa Fictícia, número 12, foi registrada a ocorrência OC004: degrau na entrada do edifício. Situação: validado pelo responsável. Ainda não existe data prevista para a correção.",
+    "ocorrencias": ["OC004"], "referencia": "PassoLivre, cadastro de demonstração OC004",
+    "url": "", "licenca": "Dado fictício produzido para o projeto"
+  },
+  {
+    "id": "S010", "titulo": "Registro simulado OC005 — superfície irregular", "tipo": "simulado",
+    "texto": "No Caminho Demonstrativo, número 42, a ocorrência OC005 trata de piso irregular na calçada. Situação: resolvido, com evidência de encerramento anexada pelo responsável fictício.",
+    "ocorrencias": ["OC005"], "referencia": "PassoLivre, cadastro de demonstração OC005",
+    "url": "", "licenca": "Dado fictício produzido para o projeto"
+  },
+  {
+    "id": "G001", "titulo": "Lei Brasileira de Inclusão — barreiras urbanísticas", "tipo": "publico",
+    "texto": "A Lei Brasileira de Inclusão, Lei 13.146/2015, artigo 3º, inciso IV, alínea a, classifica como barreiras urbanísticas os obstáculos nas vias e em espaços abertos ao público ou de uso coletivo que dificultem o exercício de direitos de acessibilidade.",
+    "ocorrencias": [], "referencia": "Lei federal 13.146/2015, art. 3º, IV, a",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+    "licenca": "Paráfrase autoral de texto legal público; verificar versão vigente"
+  },
+  {
+    "id": "G002", "titulo": "Lei Brasileira de Inclusão — direito à acessibilidade", "tipo": "publico",
+    "texto": "Conforme o artigo 53 da Lei Brasileira de Inclusão, Lei 13.146/2015, a acessibilidade é um direito das pessoas com deficiência ou mobilidade reduzida que contribui para independência, cidadania e participação social.",
+    "ocorrencias": [], "referencia": "Lei federal 13.146/2015, art. 53",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+    "licenca": "Paráfrase autoral de texto legal público; verificar versão vigente"
+  },
+  {
+    "id": "G003", "titulo": "Lei Brasileira de Inclusão — mobilidade reduzida", "tipo": "publico",
+    "texto": "A Lei 13.146/2015, artigo 3º, inciso IX, descreve pessoa com mobilidade reduzida como quem tem dificuldade temporária ou permanente de movimentação, inclusive em certas condições como idade avançada, gestação ou condução de criança de colo.",
+    "ocorrencias": [], "referencia": "Lei federal 13.146/2015, art. 3º, IX",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+    "licenca": "Paráfrase autoral de texto legal público; verificar versão vigente"
+  },
+  {
+    "id": "G004", "titulo": "Prefeitura de São Paulo — largura da faixa livre", "tipo": "publico",
+    "texto": "A orientação geral da Prefeitura de São Paulo para calçadas estabelece faixa livre de circulação de pedestres com largura mínima de 1,20 metro, sem obstáculos, para que seja preservada a passagem. Trata-se de orientação municipal de São Paulo, não de certificação para um endereço específico.",
+    "ocorrencias": [], "referencia": "Prefeitura de São Paulo, Calçadas — especificações técnicas, seção Faixa livre",
+    "url": "https://prefeitura.sp.gov.br/subprefeituras/w/calcadas/37136",
+    "licenca": "Paráfrase autoral; verificar direitos e atualização da página municipal"
+  },
+  {
+    "id": "G005", "titulo": "Prefeitura de São Paulo — superfície da faixa livre", "tipo": "publico",
+    "texto": "A orientação técnica da Prefeitura de São Paulo para faixa livre de calçadas pede superfície regular, firme, contínua e antiderrapante; buracos e desníveis podem comprometer a circulação. Esta descrição é geral, não descreve inspeção de local.",
+    "ocorrencias": [], "referencia": "Prefeitura de São Paulo, Calçadas — especificações técnicas, seção Faixa livre",
+    "url": "https://prefeitura.sp.gov.br/subprefeituras/w/calcadas/37136",
+    "licenca": "Paráfrase autoral; verificar direitos e atualização da página municipal"
+  },
+  {
+    "id": "G006", "titulo": "São Paulo — exceções para calçadas estreitas", "tipo": "publico",
+    "texto": "Em São Paulo, o decreto municipal 59.671/2020 prevê hipóteses atípicas quando não for possível implantar faixa livre de 1,20 m. Em condições específicas e limitadas, podem existir passagens de 90 cm em interferências e 80 cm ao transpor obstáculos isolados de até 40 cm de extensão. Não se deve concluir conformidade de 80 cm sem avaliar o caso e a norma aplicável.",
+    "ocorrencias": [], "referencia": "Município de São Paulo, Decreto 59.671/2020, artigo 24 (confirmar redação vigente)",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/decreto-59671-de-7-de-agosto-de-2020",
+    "licenca": "Resumo autoral de norma municipal; conferir redação consolidada vigente"
+  },
+  {
+    "id": "G007", "titulo": "Prefeitura de São Paulo — faixas da calçada", "tipo": "publico",
+    "texto": "O padrão municipal da cidade de São Paulo organiza calçadas em faixa de serviço para mobiliário urbano, faixa livre para circulação de pedestres e faixa de acesso junto aos imóveis quando cabível. Postes e árvores devem respeitar a circulação livre.",
+    "ocorrencias": [], "referencia": "Prefeitura de São Paulo, Padrão arquitetônico para calçadas",
+    "url": "https://prefeitura.sp.gov.br/web/subprefeituras/w/calcadas/37447",
+    "licenca": "Paráfrase autoral; conferir atualização municipal"
+  }
+]

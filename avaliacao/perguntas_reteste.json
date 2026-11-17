@@ -1,0 +1,63 @@
+[
+  {
+    "id": "Q04",
+    "pergunta": "Por que o relato OC003 foi rejeitado?",
+    "trechos_relevantes": [
+      "S003"
+    ],
+    "termos_chave": [
+      "foto"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Imagem insuficiente."
+  },
+  {
+    "id": "Q07",
+    "pergunta": "Visão computacional sozinha confirma um obstáculo?",
+    "trechos_relevantes": [
+      "S008"
+    ],
+    "termos_chave": [
+      "humana"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Análise automática precisa revisão."
+  },
+  {
+    "id": "Q13",
+    "pergunta": "O piso irregular no Caminho Demonstrativo 42 continua aberto?",
+    "trechos_relevantes": [
+      "S010"
+    ],
+    "termos_chave": [
+      "resolvido"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "OC005 resolvida."
+  },
+  {
+    "id": "Q20",
+    "pergunta": "Há exceção para passagem com 80 cm em São Paulo?",
+    "trechos_relevantes": [
+      "G006"
+    ],
+    "termos_chave": [
+      "exce"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Só condições atípicas delimitadas; sem certificação."
+  },
+  {
+    "id": "Q24",
+    "pergunta": "Uma calçada de 90 cm pode ser automaticamente aprovada?",
+    "trechos_relevantes": [
+      "G006",
+      "G004"
+    ],
+    "termos_chave": [
+      "não"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Não; depende de contexto e regras locais."
+  }
+]

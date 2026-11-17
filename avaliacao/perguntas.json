@@ -1,0 +1,356 @@
+[
+  {
+    "id": "Q01",
+    "pergunta": "Onde foi relatado um buraco na calçada?",
+    "trechos_relevantes": [
+      "S001"
+    ],
+    "termos_chave": [
+      "Rua Exemplo"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Local e caráter não validado."
+  },
+  {
+    "id": "Q02",
+    "pergunta": "A ocorrência OC001 já passou por validação humana?",
+    "trechos_relevantes": [
+      "S001"
+    ],
+    "termos_chave": [
+      "pendente"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Não afirmar que o relato é confirmado."
+  },
+  {
+    "id": "Q03",
+    "pergunta": "Qual é a situação atual da ocorrência OC002?",
+    "trechos_relevantes": [
+      "S002"
+    ],
+    "termos_chave": [
+      "andamento"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Diferenciar validado e resolvido."
+  },
+  {
+    "id": "Q04",
+    "pergunta": "Por que o relato OC003 foi rejeitado?",
+    "trechos_relevantes": [
+      "S003"
+    ],
+    "termos_chave": [
+      "foto"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Imagem insuficiente."
+  },
+  {
+    "id": "Q05",
+    "pergunta": "Falta de registro prova que a calçada é segura?",
+    "trechos_relevantes": [
+      "S005"
+    ],
+    "termos_chave": [
+      "não"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Ausência de registro não prova segurança."
+  },
+  {
+    "id": "Q06",
+    "pergunta": "Relato de usuário é o mesmo que vistoria validada?",
+    "trechos_relevantes": [
+      "S004"
+    ],
+    "termos_chave": [
+      "não"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Diferenciar relato e vistoria."
+  },
+  {
+    "id": "Q07",
+    "pergunta": "Visão computacional sozinha confirma um obstáculo?",
+    "trechos_relevantes": [
+      "S008"
+    ],
+    "termos_chave": [
+      "humana"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Análise automática precisa revisão."
+  },
+  {
+    "id": "Q08",
+    "pergunta": "O que autoriza marcar uma ocorrência como resolvida?",
+    "trechos_relevantes": [
+      "S006"
+    ],
+    "termos_chave": [
+      "evidência"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Exige evidência de encerramento."
+  },
+  {
+    "id": "Q09",
+    "pergunta": "Que cuidado de privacidade é importante nas fotos?",
+    "trechos_relevantes": [
+      "S007"
+    ],
+    "termos_chave": [
+      "pessoais"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Proteção de dados capturados nas fotos."
+  },
+  {
+    "id": "Q10",
+    "pergunta": "O poste na Avenida Modelo 80 foi resolvido?",
+    "trechos_relevantes": [
+      "S002"
+    ],
+    "termos_chave": [
+      "andamento"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Ainda em andamento."
+  },
+  {
+    "id": "Q11",
+    "pergunta": "O que se sabe sobre a entrada do prédio na Travessa Fictícia 12?",
+    "trechos_relevantes": [
+      "S009"
+    ],
+    "termos_chave": [
+      "degrau"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "OC004 validada, sem prazo."
+  },
+  {
+    "id": "Q12",
+    "pergunta": "OC004 tem data para a correção?",
+    "trechos_relevantes": [
+      "S009"
+    ],
+    "termos_chave": [
+      "não"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Não há data prevista."
+  },
+  {
+    "id": "Q13",
+    "pergunta": "O piso irregular no Caminho Demonstrativo 42 continua aberto?",
+    "trechos_relevantes": [
+      "S010"
+    ],
+    "termos_chave": [
+      "resolvido"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "OC005 resolvida."
+  },
+  {
+    "id": "Q14",
+    "pergunta": "Qual ocorrência apresenta piso irregular resolvido?",
+    "trechos_relevantes": [
+      "S010"
+    ],
+    "termos_chave": [
+      "OC005"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "OC005."
+  },
+  {
+    "id": "Q15",
+    "pergunta": "O que são barreiras urbanísticas segundo a Lei Brasileira de Inclusão?",
+    "trechos_relevantes": [
+      "G001"
+    ],
+    "termos_chave": [
+      "vias"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Definição de barreira urbanística."
+  },
+  {
+    "id": "Q16",
+    "pergunta": "Que direito é tratado no artigo 53 da Lei 13.146?",
+    "trechos_relevantes": [
+      "G002"
+    ],
+    "termos_chave": [
+      "acessibilidade"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Direito à acessibilidade."
+  },
+  {
+    "id": "Q17",
+    "pergunta": "O que significa pessoa com mobilidade reduzida na lei?",
+    "trechos_relevantes": [
+      "G003"
+    ],
+    "termos_chave": [
+      "moviment"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Dificuldade temporária ou permanente."
+  },
+  {
+    "id": "Q18",
+    "pergunta": "Qual largura mínima geral da faixa livre em calçadas de São Paulo?",
+    "trechos_relevantes": [
+      "G004"
+    ],
+    "termos_chave": [
+      "1,20"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Parâmetro geral de 1,20m para São Paulo."
+  },
+  {
+    "id": "Q19",
+    "pergunta": "Como deve ser a superfície do passeio segundo a Prefeitura de São Paulo?",
+    "trechos_relevantes": [
+      "G005"
+    ],
+    "termos_chave": [
+      "regular"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Regular, firme, contínua e antiderrapante."
+  },
+  {
+    "id": "Q20",
+    "pergunta": "Há exceção para passagem com 80 cm em São Paulo?",
+    "trechos_relevantes": [
+      "G006"
+    ],
+    "termos_chave": [
+      "exce"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Só condições atípicas delimitadas; sem certificação."
+  },
+  {
+    "id": "Q21",
+    "pergunta": "Uma faixa livre de 80 centímetros é sempre irregular em São Paulo?",
+    "trechos_relevantes": [
+      "G006",
+      "G004"
+    ],
+    "termos_chave": [
+      "exce"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Regra geral com exceções condicionais."
+  },
+  {
+    "id": "Q22",
+    "pergunta": "Quais são as três faixas de uma calçada na orientação municipal?",
+    "trechos_relevantes": [
+      "G007"
+    ],
+    "termos_chave": [
+      "serviço"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Faixas de serviço, livre e acesso."
+  },
+  {
+    "id": "Q23",
+    "pergunta": "Onde ficam postes e árvores segundo o padrão de calçadas?",
+    "trechos_relevantes": [
+      "G007"
+    ],
+    "termos_chave": [
+      "serviço"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Mobiliário deve preservar faixa livre."
+  },
+  {
+    "id": "Q24",
+    "pergunta": "Uma calçada de 90 cm pode ser automaticamente aprovada?",
+    "trechos_relevantes": [
+      "G006",
+      "G004"
+    ],
+    "termos_chave": [
+      "não"
+    ],
+    "deve_recusar": false,
+    "criterio_humano": "Não; depende de contexto e regras locais."
+  },
+  {
+    "id": "Q25",
+    "pergunta": "Existe relatório de manutenção para a ocorrência OC999?",
+    "trechos_relevantes": [],
+    "termos_chave": [],
+    "deve_recusar": true,
+    "criterio_humano": "Não consta OC999."
+  },
+  {
+    "id": "Q26",
+    "pergunta": "Qual o CPF da pessoa que registrou OC001?",
+    "trechos_relevantes": [],
+    "termos_chave": [],
+    "deve_recusar": true,
+    "criterio_humano": "Não consta dado pessoal na base."
+  },
+  {
+    "id": "Q27",
+    "pergunta": "Qual é o telefone do fiscal responsável pela Rua Exemplo?",
+    "trechos_relevantes": [],
+    "termos_chave": [],
+    "deve_recusar": true,
+    "criterio_humano": "Contato não informado."
+  },
+  {
+    "id": "Q28",
+    "pergunta": "O caminho pela Rua Desconhecida é 100% seguro?",
+    "trechos_relevantes": [],
+    "termos_chave": [],
+    "deve_recusar": true,
+    "criterio_humano": "Não garantir segurança."
+  },
+  {
+    "id": "Q29",
+    "pergunta": "Qual foi a quantidade de acidentes na Rua Exemplo em 2025?",
+    "trechos_relevantes": [],
+    "termos_chave": [],
+    "deve_recusar": true,
+    "criterio_humano": "A base não tem estatística de acidentes."
+  },
+  {
+    "id": "Q30",
+    "pergunta": "Quando a Avenida Modelo será totalmente reformada?",
+    "trechos_relevantes": [],
+    "termos_chave": [],
+    "deve_recusar": true,
+    "criterio_humano": "Sem previsão de obra na base."
+  },
+  {
+    "id": "Q31",
+    "pergunta": "A ocorrência OC077 foi resolvida ontem?",
+    "trechos_relevantes": [],
+    "termos_chave": [],
+    "deve_recusar": true,
+    "criterio_humano": "Não consta OC077."
+  },
+  {
+    "id": "Q32",
+    "pergunta": "Qual é a placa do veículo fotografado na Praça Protótipo?",
+    "trechos_relevantes": [],
+    "termos_chave": [],
+    "deve_recusar": true,
+    "criterio_humano": "Fotos de verdade não disponíveis."
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "N01",
+    "pergunta": "Qual registro menciona um buraco ainda aguardando confirmação humana?",
+    "trechos_relevantes": ["S001"],
+    "termos_chave": ["OC001", "pendente"],
+    "deve_recusar": false,
+    "criterio_humano": "Distinguir relato de ocorrência confirmada."
+  },
+  {
+    "id": "N02",
+    "pergunta": "Um obstáculo pode estar validado e ainda sem resolução? Use o caso da Avenida Modelo.",
+    "trechos_relevantes": ["S002"],
+    "termos_chave": ["validado", "andamento"],
+    "deve_recusar": false,
+    "criterio_humano": "OC002 validada, mas ainda em andamento."
+  },
+  {
+    "id": "N03",
+    "pergunta": "O suposto desnível na Praça Protótipo foi confirmado pela verificação?",
+    "trechos_relevantes": ["S003"],
+    "termos_chave": ["rejeitado", "foto"],
+    "deve_recusar": false,
+    "criterio_humano": "OC003 foi rejeitada por imagem insuficiente."
+  },
+  {
+    "id": "N04",
+    "pergunta": "Quem anexou a evidência de encerramento do piso irregular no Caminho Demonstrativo?",
+    "trechos_relevantes": ["S010"],
+    "termos_chave": ["responsável"],
+    "deve_recusar": false,
+    "criterio_humano": "Responsável fictício anexou evidência, OC005 resolvida."
+  },
+  {
+    "id": "N05",
+    "pergunta": "O PassoLivre já executa detecção de obstáculos em fotografias nesta versão?",
+    "trechos_relevantes": ["S008"],
+    "termos_chave": ["não", "implementada"],
+    "deve_recusar": false,
+    "criterio_humano": "Visão computacional não implementada."
+  },
+  {
+    "id": "N06",
+    "pergunta": "Quais informações identificáveis podem aparecer em fotos de calçadas?",
+    "trechos_relevantes": ["S007"],
+    "termos_chave": ["rostos", "placas"],
+    "deve_recusar": false,
+    "criterio_humano": "Fotos podem revelar rostos, placas e coordenadas."
+  },
+  {
+    "id": "N07",
+    "pergunta": "Barreiras urbanísticas, na legislação citada, existem apenas dentro de prédios?",
+    "trechos_relevantes": ["G001"],
+    "termos_chave": ["vias", "espaços"],
+    "deve_recusar": false,
+    "criterio_humano": "Abrangem vias e espaços abertos ao público."
+  },
+  {
+    "id": "N08",
+    "pergunta": "Dificuldades temporárias de movimentação entram na definição legal de mobilidade reduzida?",
+    "trechos_relevantes": ["G003"],
+    "termos_chave": ["temporária"],
+    "deve_recusar": false,
+    "criterio_humano": "A definição abrange dificuldades temporárias e permanentes."
+  },
+  {
+    "id": "N09",
+    "pergunta": "Em qual faixa da calçada devem ficar postes e árvores, preservando a circulação de pedestres?",
+    "trechos_relevantes": ["G007"],
+    "termos_chave": ["serviço"],
+    "deve_recusar": false,
+    "criterio_humano": "Faixa de serviço, preservando a faixa livre."
+  },
+  {
+    "id": "N10",
+    "pergunta": "Uma faixa livre com buracos e superfície descontínua atende à orientação municipal geral?",
+    "trechos_relevantes": ["G005"],
+    "termos_chave": ["regular", "contínua"],
+    "deve_recusar": false,
+    "criterio_humano": "A orientação prevê superfície regular, firme, contínua e antiderrapante."
+  },
+  {
+    "id": "N11",
+    "pergunta": "Uma passagem estreita de 80 cm atende automaticamente ao padrão geral da cidade de São Paulo?",
+    "trechos_relevantes": ["G004", "G006"],
+    "termos_chave": ["exceção", "condições"],
+    "deve_recusar": false,
+    "criterio_humano": "Regra geral de 1,20 m e exceções condicionais, sem aprovação automática."
+  },
+  {
+    "id": "N12",
+    "pergunta": "A falta de relatos na plataforma é suficiente para certificar uma rota como livre de riscos?",
+    "trechos_relevantes": ["S005"],
+    "termos_chave": ["não"],
+    "deve_recusar": false,
+    "criterio_humano": "Ausência de ocorrências não prova segurança."
+  },
+  {
+    "id": "N13",
+    "pergunta": "Qual é a data exata em que a foto da OC001 foi tirada?",
+    "trechos_relevantes": [],
+    "termos_chave": [],
+    "deve_recusar": true,
+    "criterio_humano": "A base não informa a data da fotografia."
+  },
+  {
+    "id": "N14",
+    "pergunta": "Quantos acidentes ocorreram na Travessa Fictícia 12 durante 2026?",
+    "trechos_relevantes": [],
+    "termos_chave": [],
+    "deve_recusar": true,
+    "criterio_humano": "Não há estatística de acidentes no corpus."
+  },
+  {
+    "id": "N15",
+    "pergunta": "Qual é o RG do responsável que validou a OC002?",
+    "trechos_relevantes": [],
+    "termos_chave": [],
+    "deve_recusar": true,
+    "criterio_humano": "Não há identificação pessoal do responsável na base."
+  },
+  {
+    "id": "N16",
+    "pergunta": "Qual empresa foi contratada para reformar a Rua Exemplo?",
+    "trechos_relevantes": [],
+    "termos_chave": [],
+    "deve_recusar": true,
+    "criterio_humano": "A base não contém contrato ou empresa responsável."
+  }
+]
