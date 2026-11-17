@@ -137,13 +137,6 @@ GS-AI/
 - [Rubrica de auditoria](avaliacao/rubrica_humana.md)
 - [Base de conhecimento](base/trechos.json)
 
-
-## Privacidade, LGPD e limitações
-
-A base utilizada nos experimentos contém ocorrências fictícias e não armazena fotografias, localizações reais ou cadastros de pessoas. O sistema aceita texto livre nas perguntas e, portanto, não deve ser utilizado com dados pessoais reais sem controles adicionais. A execução local e o uso de dados simulados reduzem a exposição, mas não constituem certificação de conformidade com a LGPD.
-
-Para uma implantação com usuários reais seriam necessários, entre outros, definição de finalidade e base legal, minimização e retenção de dados, controle de acesso, segurança de registros e tratamento de solicitações dos titulares. As respostas do assistente não substituem vistorias, orientação técnica profissional nem a consulta à redação vigente das normas citadas.
-
 ## Referências
 
 As referências dos trechos, suas naturezas e URLs estão documentadas em `base/trechos.json`. Incluem a Lei Brasileira de Inclusão (Lei nº 13.146/2015), orientações da Prefeitura de São Paulo sobre calçadas e o Decreto municipal nº 59.671/2020. Os trechos públicos são paráfrases e devem ser conferidos nas fontes oficiais para uso além do experimento.
