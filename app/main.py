@@ -1,8 +1,9 @@
 """API local. Não disponibilizar sem autenticação/limites de acesso em ambiente público."""
 from typing import Literal
-from fastapi import FastAPI, HTTPException, Query as QueryParam
+from fastapi import FastAPI, HTTPException, Query as QueryParam, Depends
 from pydantic import BaseModel, Field
 from .core import OllamaError, load_chunks, response, retrieve
+from .security import verificar_chave
 
 app = FastAPI(title="PassoLivre AI — Demo acadêmica local", version="0.2.0")
 
@@ -17,18 +18,18 @@ def health():
     return {"status": "ok", "observacao": "Não testa a conectividade com Ollama"}
 
 
-@app.get("/fontes")
+@app.get("/fontes", dependencies=[Depends(verificar_chave)])
 def fontes():
     return [{k: c[k] for k in ("id", "titulo", "tipo", "url", "licenca", "referencia")}
             for c in load_chunks()]
 
 
-@app.get("/buscar")
+@app.get("/buscar", dependencies=[Depends(verificar_chave)])
 def buscar(q: str = QueryParam(min_length=3, max_length=1000), k: int = QueryParam(default=3, ge=1, le=10)):
     return retrieve(q, k=k)
 
 
-@app.post("/perguntar")
+@app.post("/perguntar", dependencies=[Depends(verificar_chave)])
 def perguntar(payload: Question):
     try:
         return response(payload.pergunta, payload.modo)
