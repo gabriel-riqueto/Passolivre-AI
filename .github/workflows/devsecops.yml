@@ -42,7 +42,7 @@ jobs:
       - name: Construir imagem Docker
         run: docker build --pull -t passolivre:ci .
 
-            - name: Trivy - Relatorio completo
+      - name: Trivy - Relatorio completo
         uses: aquasecurity/trivy-action@v0.36.0
         with:
           image-ref: passolivre:ci
