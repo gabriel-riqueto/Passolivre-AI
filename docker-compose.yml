@@ -1,0 +1,29 @@
+services:
+
+  api:
+    build: .
+    container_name: passolivre-api
+
+    environment:
+      OLLAMA_URL: http://ollama:11434
+      PASSOLIVRE_MODEL: qwen2.5:3b-instruct-q4_K_M
+
+    ports:
+      - "127.0.0.1:8000:8000"
+
+    depends_on:
+      - ollama
+
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: passolivre-ollama
+
+    volumes:
+      - ollama_data:/root/.ollama
+
+    restart: unless-stopped
+
+volumes:
+  ollama_data:
