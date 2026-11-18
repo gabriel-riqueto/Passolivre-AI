@@ -42,7 +42,24 @@ jobs:
       - name: Construir imagem Docker
         run: docker build --pull -t passolivre:ci .
 
-      - name: Trivy - Verificar vulnerabilidades
+            - name: Trivy - Relatorio completo
+        uses: aquasecurity/trivy-action@v0.36.0
+        with:
+          image-ref: passolivre:ci
+          scan-type: image
+          format: table
+          exit-code: '0'
+          severity: 'HIGH,CRITICAL'
+          ignore-unfixed: false
+          output: trivy-completo.txt
+
+      - name: Salvar relatorio de vulnerabilidades
+        uses: actions/upload-artifact@v4
+        with:
+          name: trivy-relatorio-completo
+          path: trivy-completo.txt
+
+      - name: Trivy - Bloquear vulnerabilidades corrigiveis
         uses: aquasecurity/trivy-action@v0.36.0
         with:
           image-ref: passolivre:ci
@@ -50,15 +67,15 @@ jobs:
           format: table
           exit-code: '1'
           severity: 'HIGH,CRITICAL'
-          ignore-unfixed: false
+          ignore-unfixed: true
 
       - name: Definir nome da imagem
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/devsecops-cloud'
         shell: bash
         run: echo "IMAGE=ghcr.io/${GITHUB_REPOSITORY,,}:latest" >> "$GITHUB_ENV"
 
       - name: Autenticar no GHCR
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/devsecops-cloud'
         uses: docker/login-action@v4
         with:
           registry: ghcr.io
@@ -66,5 +83,5 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publicar imagem Docker
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/devsecops-cloud'
         run: docker tag passolivre:ci "$IMAGE" && docker push "$IMAGE"
