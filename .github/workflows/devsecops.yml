@@ -84,4 +84,32 @@ jobs:
 
       - name: Publicar imagem Docker
         if: github.event_name == 'push' && github.ref == 'refs/heads/devsecops-cloud'
-        run: docker tag passolivre:ci "$IMAGE" && docker push "$IMAGE"
+        run: docker tag passolivre:ci "$IMAGE" && docker tag passolivre:ci "${IMAGE%:*}:${GITHUB_SHA}" && docker push "$IMAGE" && docker push "${IMAGE%:*}:${GITHUB_SHA}"
+
+  deploy:
+    name: Deploy Automatico Azure
+    needs: security-build
+    runs-on: ubuntu-latest
+
+    if: github.event_name == 'push' && github.ref == 'refs/heads/devsecops-cloud'
+
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+      - name: Login Azure OIDC
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Preparar Azure Container Apps
+        run: az extension add --name containerapp --upgrade --yes
+
+      - name: Atualizar PassoLivre AI
+        run: az containerapp update --name ca-passolivre-ai --resource-group rg-passolivre-devops --container-name api --image "ghcr.io/gabriel-riqueto/passolivre-ai:${GITHUB_SHA}" --output none
+
+      - name: Verificar imagem publicada
+        run: az containerapp show --name ca-passolivre-ai --resource-group rg-passolivre-devops --query "properties.template.containers[?name=='api'].image" --output tsv        
