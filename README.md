@@ -200,7 +200,7 @@ Passolivre-AI/
 - [Cinco erros e correções](docs/erros_e_correcoes.md)
 - [Rubrica de auditoria](avaliacao/rubrica_humana.md)
 - [Base de conhecimento](base/trechos.json)
-- [Placar](rodadas/avaliacao_independente_e68b6315fca6/placar.json)
+- [Placar](avaliacao/rodadas/avaliacao_independente_e68b6315fca6/placar.json)
 
 ## Privacidade e limitações de uso
 
